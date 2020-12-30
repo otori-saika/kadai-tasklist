@@ -7,15 +7,16 @@
             <c:out value="${flush}"></c:out>
         </div>
         </c:if>
-        <h2>-やること-︎︎</h2>
         <ul>
             <c:forEach var="task" items="${tasks}">
+            <div class="c">
                 <li>
 
                     <a href="${pageContext.request.contextPath}/show?id=${task.id}">
-                        <c:out value="${task.content}" />
+                        　<c:out value="${task.content}" />
                     </a>
                 </li>
+                </div>
             </c:forEach>
         </ul>
         <div id="pagination">
@@ -31,7 +32,7 @@
                 </c:choose>
             </c:forEach>
             </div>
-        <p><a href="${pageContext.request.contextPath}/new">＋追加</a></p>
+        <p><a href="${pageContext.request.contextPath}/new" class="btn" >＋追加</a></p>
 
     </c:param>
 </c:import>

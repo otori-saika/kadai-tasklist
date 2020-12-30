@@ -9,9 +9,9 @@
     </div>
 </c:if>
 
-<label for="content">やること</label><br />
-<input type="text" name="content" value="${task.content}" />
-<br /><br />
+<br />
+<input type="text" name="content" value="${task.content}" placeholder="やることを入力してね！" />
+<br />
 
 <input type="hidden" name="_token" value="${_token}" />
 <button type="submit">追加</button>

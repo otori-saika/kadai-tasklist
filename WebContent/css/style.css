@@ -6,9 +6,10 @@ body {
 }
 
 #header {
+    text-align: center;
     width: 100%;
     height: 70px;
-    background-color: #333333;
+    background-color: #F2CFD7;
 }
 
 #content {
@@ -17,12 +18,14 @@ body {
     padding-left: 3%;
 }
 
+
+
 h1 {
     width: 94%;
     padding-top: 17px;
     padding-left: 3%;
     font-size: 24px;
-    color: #eeeeee;
+    color: white;
 }
 
 h2 {
@@ -38,25 +41,36 @@ li {
 p {
     margin-top: 15px;
     margin-bottom: 15px;
+    color: #515251;
+
+}
+
+#pagination {
+    color: #515251;
 }
 
 a {
     text-decoration: none;
-    color: #24738e;
+    color: #515251;
 }
 
 table, tr, th, td {
     border: 1px solid #cccccc;
+    color: #515251;
 }
 
 table {
     width: 100%;
     table-layout: fixed;
+    background-color: #F9EADA;
 }
 
 th {
     width: 26%;
     padding: 10px 2%;
+    background-color: #E3DDD8;
+    text-align: center;
+
 }
 
 td {
@@ -65,12 +79,16 @@ td {
 }
 
 button {
+    border-radius: 10px;
     font-size: 14px;
     padding: 5px 10px;
+    background-color: #F2CFD7;
+
 }
 
 #footer {
     text-align: center;
+    color: #515251;
 }
 
 #flush_success {
@@ -91,4 +109,33 @@ button {
     margin-bottom: 15px;
     color: #721c24;
     background-color: #f8d7da;
+}
+
+.c:nth-child(odd) {
+    padding: 3px 0 3px 0;
+    margin-bottom: 3px;
+    background-color: #F9EADA;
+    border-radius: 10px;
+}
+
+.c:nth-child(even) {
+    padding: 3px 0 3px 0;
+    margin-bottom: 3px;
+    background-color: #E3DDD8;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: #F2CFD7;
+    line-height: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    color: white;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
 }

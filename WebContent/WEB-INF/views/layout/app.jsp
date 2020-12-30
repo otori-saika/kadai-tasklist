@@ -11,10 +11,12 @@
     <body>
         <div id="wrapper">
             <div id="header">
-                <h1>⚫︎やることリスト⚫︎</h1>
+                <h1>やることリスト︎</h1>
             </div>
+            <div class="content">
             <div id="content">
                 ${param.content}
+            </div>
             </div>
             <div id="footer">
                 by Yoku Dikimashita.
